@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["es2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src", // ソースファイルのルートディレクトリを './src' に変更
+    "noEmit": false
+  },
+  "include": [
+    "src/**/*.ts" // ここを 'src/**/*.ts' に変更
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

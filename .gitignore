@@ -1,0 +1,27 @@
+# Node.js modules
+/node_modules/
+
+# Build output (TypeScript compilation output)
+/dist/
+/build/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/        # VS Code settings (user specific)
+.idea/          # IntelliJ IDEA (or WebStorm)
+*.iml           # IntelliJ IDEA module files
+.DS_Store       # macOS specific
+Thumbs.db       # Windows specific
+
+# TypeScript specific
+*.tsbuildinfo   # TypeScript build info file
